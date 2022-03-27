@@ -1,3 +1,4 @@
+
 function App(){
     const number = 1;
 
@@ -6,7 +7,13 @@ function App(){
     };
     double();
     return(
-       <div>{double(number)} </div>
+            <>
+                     <div>{double(number)}</div>
+                    <button>Submit</button>
+            </>
+             
+        
+     
     );
 }
 
